@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Shino ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================================================
+         HERO
+    =================================================== -->
+
+    <section id="hero" class="section hero">
+
+        <div class="hero-bg"></div>
+        <div class="hero-gold-orbit"></div>
+
+        <div class="hero-image">
+            <img src="images/img1.jpg" alt="A special memory">
+        </div>
+
+        <div class="hero-image-frame"></div>
+
+        <div class="hero-content">
+
+            <span class="eyebrow">
+                A LITTLE SOMETHING FOR YOU
+            </span>
+
+            <div class="gold-line"></div>
+
+            <h1>
+                For
+                <span>Shino♡</span>
+            </h1>
+
+            <p>
+                Okay, so... I could've just said Happy Birthday
+                and called it a day, but that felt way too boring.
+                <br><br>
+                So I made you this instead.
+                There are a few things here that reminded me of you,
+                a few things you probably won't expect, and a few
+                things you better get right.
+            </p>
+
+            <p class="hero-small-text">
+                Just take your time with it.
+            </p>
+
+            <button class="gold-button" data-scroll="memories">
+                Start here
+            </button>
+
+        </div>
+
+
+        <!-- PENGUIN - HERO ONLY -->
+
+        <div class="penguin" id="penguin">
+
+            <div class="penguin-body"></div>
+            <div class="penguin-belly"></div>
+            <div class="penguin-head"></div>
+            <div class="penguin-face"></div>
+
+            <div class="eye eye-left">
+                <div class="pupil"></div>
+            </div>
+
+            <div class="eye eye-right">
+                <div class="pupil"></div>
+            </div>
+
+            <div class="beak"></div>
+
+            <div class="flipper flipper-left"></div>
+            <div class="flipper flipper-right"></div>
+
+            <div class="foot foot-left"></div>
+            <div class="foot foot-right"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         MEMORIES / PHOTOS
+    =================================================== -->
+
+    <section id="memories" class="section memories">
+
+        <div class="memory-circle"></div>
+
+        <img src="images/img2.jpg" class="memory-photo photo-1" alt="">
+        <img src="images/img3.jpg" class="memory-photo photo-2" alt="">
+        <img src="images/img4.jpg" class="memory-photo photo-3" alt="">
+        <img src="images/img5.jpg" class="memory-photo photo-4" alt="">
+        <img src="images/img6.jpg" class="memory-photo photo-5" alt="">
+        <img src="images/img7.jpg" class="memory-photo photo-6" alt="">
+        <img src="images/img8.jpg" class="memory-photo photo-7" alt="">
+        <img src="images/img9.jpg" class="memory-photo photo-8" alt="">
+        <img src="images/img10.jpg" class="memory-photo photo-9" alt="">
+        <img src="images/img1.jpg" class="memory-photo photo-10" alt="">
+
+
+        <div class="memory-content">
+
+            <span class="eyebrow">
+                THE PICTURES
+            </span>
+
+            <h2>
+                I had a reason
+                <em>for picking these.</em>
+            </h2>
+
+            <div class="gold-line centered"></div>
+
+            <p>
+                Some of them are here because I remembered you liking them,
+                some because they reminded me of conversations we've had,
+                and some are here simply because I knew you'd recognize them.
+                <br><br>
+                I wanted this part to feel a little random.
+                Not perfectly arranged, not trying too hard.
+                Just a bunch of things that somehow felt very you.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         LETTERS
+    =================================================== -->
+
+    <section id="letters" class="section letters">
+
+        <div class="section-heading">
+
+            <span class="eyebrow">
+                OPEN WHEN...
+            </span>
+
+            <h2>
+                Three letters.
+            </h2>
+
+            <p>
+                Pick whichever one you need.
+            </p>
+
+        </div>
+
+
+        <div class="envelope-container">
+
+            <div class="envelope" data-letter="sad">
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-inner">
+                    <span>OPEN WHEN</span>
+                    <h3>You're sad</h3>
+                </div>
+
+            </div>
+
+
+            <div class="envelope" data-letter="happy">
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-inner">
+                    <span>OPEN WHEN</span>
+                    <h3>You're happy</h3>
+                </div>
+
+            </div>
+
+
+            <div class="envelope" data-letter="reminder">
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-inner">
+                    <span>OPEN WHEN</span>
+                    <h3>You need a reminder</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         LETTER MODAL
+    =================================================== -->
+
+    <div class="letter-overlay" id="letterOverlay">
+
+        <div class="letter-paper">
+
+            <button class="close-letter" id="closeLetter">
+                ×
+            </button>
+
+            <div id="letterContent"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==================================================
+         QUIZ
+    =================================================== -->
+
+    <section id="quiz" class="section quiz">
+
+        <div class="quiz-wrapper">
+
+            <div class="section-heading quiz-heading">
+
+                <span class="eyebrow">
+                    ONE MORE THING
+                </span>
+
+                <h2>
+                    Answer these correctly.
+                </h2>
+
+                <p>
+                    Every correct answer gives you one more word.
+                </p>
+
+            </div>
+
+
+            <div class="question-card">
+
+                <span class="question-count" id="questionCount">
+                    QUESTION 1 / 6
+                </span>
+
+                <h3 id="questionText"></h3>
+
+                <div class="answers" id="answers"></div>
+
+            </div>
+
+
+            <div class="secret-message">
+
+                <span>
+                    ANSWER CORRECTLY TO REACH THE SENTENCE
+                </span>
+
+                <div id="secretWords"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         FINAL LETTER
+    =================================================== -->
+
+    <section id="final" class="section final">
+
+        <div class="final-paper">
+
+            <span class="eyebrow">
+                ONE LAST THING
+            </span>
+
+            <div class="gold-line"></div>
+
+            <h2>
+                Dear Shino,
+            </h2>
+
+            <p>
+                I wanted to make you something that wouldn't just say
+                "Happy Birthday", but something you could actually keep.
+                <br><br>
+
+                Something a little strange, a little mysterious, and hopefully a little you.
+                <br><br>
+
+                I hope this next year gives you countless reasons to laugh,
+                new memories worth keeping, and a lot of moments that feel like your favorite song.
+                <br><br>
+
+                And whenever life gets a little too loud, remember that somewhere there is a tiny imaginary penguin staring at you with extremely serious eyes.
+                <br><br>
+
+                Happy Birthday. You deserve beautiful things.
+            </p>
+
+
+            <p>
+                اوووك بعيد عن الرسميه حبيت اتكلم عن التفاصيل الي اخترتها هنا من اول اللون ذا اللونين الي انتي بعتلي فيديو بشهرنا و كان  forest green + gold اما الصور اخترتها كلها عن لينك عشان تذكرت محادثتنا لما قولتي في يوم من الأيام بيخلص و حبيت احطه هنا كتذكير انه كان جزء من شخصيتك و الصور نفسها؟ صورك المفضل الي رسلتيها خاصه حقت ليو و كرومي لان عندك واحده ل ليو في هولدير كرومي...و سبب ان الرسايل بالانجليزي؟لانك قولتلي حابه تتعلمي فا اتمنى لما تعديهم تاني تكوني تقريهم بسهوله >^< المهم اتمنى ان ذي الهديه تعجبك و تذكرك انك اكثر من افكارك الي متوقعها لنفسك 3>
+            </p>
+
+            <p class="signature">
+                With love ♡
+            </p>
+
+
+            <button class="gold-button final-button" id="finalButton">
+                One last thing
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         ENDING
+    =================================================== -->
+
+    <div class="ending" id="ending">
+
+        <div id="stars"></div>
+
+        <div class="ending-content">
+
+            <div class="ending-penguin">
+                🐧
+            </div>
+
+            <h2>
+                Happy Birthday, Shino.
+            </h2>
+
+            <p>
+                You made it all the way here.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
